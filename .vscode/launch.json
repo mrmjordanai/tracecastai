@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TraceCast (Debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define=REVENUECAT_PUBLIC_KEY_IOS=appl_nzdBYsVTJAGHQMPBQRlCKxOQbeh",
+        "--dart-define=REVENUECAT_PUBLIC_KEY_ANDROID=goog_yYKTqOdjzoOtaJxCalofjtErIWb"
+      ]
+    },
+    {
+      "name": "TraceCast (Profile)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "profile",
+      "args": [
+        "--dart-define=REVENUECAT_PUBLIC_KEY_IOS=appl_nzdBYsVTJAGHQMPBQRlCKxOQbeh",
+        "--dart-define=REVENUECAT_PUBLIC_KEY_ANDROID=goog_yYKTqOdjzoOtaJxCalofjtErIWb"
+      ]
+    },
+    {
+      "name": "TraceCast (Release)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "release",
+      "args": [
+        "--dart-define=REVENUECAT_PUBLIC_KEY_IOS=appl_nzdBYsVTJAGHQMPBQRlCKxOQbeh",
+        "--dart-define=REVENUECAT_PUBLIC_KEY_ANDROID=goog_yYKTqOdjzoOtaJxCalofjtErIWb"
+      ]
+    }
+  ]
+}

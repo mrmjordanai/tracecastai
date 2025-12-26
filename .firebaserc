@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "tracecast-8698e"
+  },
+  "targets": {
+    "tracecast-8698e": {
+      "storage": {
+        "rules": [
+          "tracecast-8698e.firebasestorage.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
