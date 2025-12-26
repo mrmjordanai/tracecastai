@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821526396184",
+    "project_id": "tracecast-8698e",
+    "storage_bucket": "tracecast-8698e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821526396184:android:e7e5123a2929a8762bb26d",
+        "android_client_info": {
+          "package_name": "com.jordansco.tracecast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdkYIw9foBl4ke8vSkNvW6onXMGZg7EZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(revenuecat)",
+      "Skill(revenuecat:*)",
+      "Bash(firebase functions:config:set:*)",
+      "Bash(firebase deploy:*)",
+      "Bash(firebase functions:delete:*)"
+    ]
+  }
+}
